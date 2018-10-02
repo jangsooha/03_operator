@@ -5,21 +5,13 @@
 
 int main(int argc, char *argv[]) {
 
-    int op1, op2;
-    int sum, sub;
+    int sec;
 
-    printf("input integers :");
-    scanf("%i %i", &op1, &op2);
+    printf("input the second :");
+    scanf("%d", &sec);
 
-    sum = op1 + op2;
-    sub = op1 - op2;
+    printf("%d sec, is %i : %i\n", sec, sec/60, sec%60);
 
-    printf("+ operation : %i\n", sum);
-    printf("- operation : %i\n", sub);
-    printf("* operation : %i\n", op1*op2);
-    printf("/ operation : %i\n", op1/op2);
-    printf("%% operation : %i\n", op1%op2);
-
-	return 0;
+    return 0;
     
 }
